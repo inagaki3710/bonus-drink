@@ -11,3 +11,4 @@ class BonusDrink
 end
 
 puts BonusDrink.total_count_for(100)
+
