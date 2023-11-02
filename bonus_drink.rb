@@ -1,5 +1,5 @@
 class BonusDrink
-  def self.total_count_for(amount)
+  def self.total_count(amount)
     total = amount
     while amount >= 3
       exchange = amount / 3
@@ -10,4 +10,4 @@ class BonusDrink
   end
 end
 
-puts BonusDrink.total_count_for(100)
+puts BonusDrink.total_count(100)
